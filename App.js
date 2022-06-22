@@ -10,7 +10,7 @@ import Home from './screen/home';
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <ScrollView>
         <Home />
       </ScrollView>
