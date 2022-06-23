@@ -7,7 +7,7 @@ export default function BannerProduct() {
     <View style={{backgroundColor: "#FAFAFA", flex: 1, paddingBottom: 10}}>
     <View
         style={{
-          backgroundColor: '#3669C9',
+          backgroundColor: '#0ACF83',
           marginHorizontal: 20,
           borderRadius: 10,
           flexDirection: 'row',

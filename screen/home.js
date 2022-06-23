@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import Banner from '../components/Home/Banner';
 import BannerProduct from '../components/Home/BannerProduct';
+import Blog from '../components/Home/Blog';
 import Categories from '../components/Home/Categories';
 import FeatureProduct from '../components/Home/FeatureProduct';
 import Hero from '../components/Home/Hero';
@@ -26,6 +27,7 @@ export default function Home() {
       <BannerProduct/>
       <FeatureProduct title={"New Arrivals"} marginTop={0} />
       <FeatureProduct title={"Top Rated Product"} marginTop={0} />
+      <Blog/>
     </>
   );
 }
