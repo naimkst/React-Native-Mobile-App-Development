@@ -9,6 +9,7 @@ import {
   ScrollView,
 } from 'react-native';
 import Banner from '../components/Home/Banner';
+import BannerProduct from '../components/Home/BannerProduct';
 import Categories from '../components/Home/Categories';
 import FeatureProduct from '../components/Home/FeatureProduct';
 import Hero from '../components/Home/Hero';
@@ -22,6 +23,7 @@ export default function Home() {
       <Banner />
       <Categories />
       <FeatureProduct />
+      <BannerProduct/>
     </>
   );
 }
