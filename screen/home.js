@@ -22,8 +22,10 @@ export default function Home() {
       <Search />
       <Banner />
       <Categories />
-      <FeatureProduct />
+      <FeatureProduct title={"Feature Product"} marginTop={30} />
       <BannerProduct/>
+      <FeatureProduct title={"New Arrivals"} marginTop={0} />
+      <FeatureProduct title={"Top Rated Product"} marginTop={0} />
     </>
   );
 }

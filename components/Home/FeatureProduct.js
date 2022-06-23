@@ -6,12 +6,12 @@ import {
   ScrollView,
 } from 'react-native';
 
-export default function FeatureProduct() {
+export default function FeatureProduct({ title, marginTop }) {
   return (
     <>
       <View
         style={{
-          marginTop: 30,
+          marginTop: {marginTop},
           paddingHorizontal: 20,
           paddingVertical: 30,
           backgroundColor: '#FAFAFA',
@@ -26,7 +26,7 @@ export default function FeatureProduct() {
           }}>
           <View>
             <Text style={{fontSize: 16, fontWeight: '600', color: '#0C1A30'}}>
-              Featured Product
+              { title }
             </Text>
           </View>
           <View>

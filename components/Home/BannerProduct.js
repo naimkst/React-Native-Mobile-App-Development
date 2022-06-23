@@ -4,7 +4,7 @@ import {Image, View, Text} from 'react-native';
 export default function BannerProduct() {
   return (
     <>
-    <View style={{backgroundColor: "#FAFAFA" }}>
+    <View style={{backgroundColor: "#FAFAFA", flex: 1, paddingBottom: 10}}>
     <View
         style={{
           backgroundColor: '#3669C9',
